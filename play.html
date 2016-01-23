@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            Play | Tic-Tac-Toe
+        </title>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script type='text/javascript' src='Js/jquery-1.8.3.js'></script>
+        <script type='text/javascript' src='Js/home.js'></script>
+        <meta name="keywords" content="Tic-Tac-Toe, Online Multiplayer game, Online game">
+        <meta name="description" content="Play free mutiplayer online tic-tac-toe.">
+
+        <link rel="stylesheet" href="Style/home.css" />
+    </head>
+
+    <body>
+        <!-- main container -->
+        <div id="container">
+
+            <!-- header -->
+            <div id="header">
+                <span id="logo">Tic-Tac-Toe</span>
+                <span id="slogan">Online Multi-player <span id="online_count"></span></span>        
+            </div>
+            <div id="header_sec"></div>
+
+            <!-- main content -->
+            <div id="content">
+
+                <div id="game_info">
+                    <div id="sign"></div>
+                    <div class="game_info_block">
+                        <span id="turn"></span>
+                    </div>
+                    <div id="messages" class="game_info_block"></div>
+                    <div id="timer" class="game_info_block"></div>
+                </div>
+
+                <div id="start_game_div">
+                    Start playing
+                </div>
+                <div id="opponent_left_message"></div>
+
+                <div id="loading_game" class="hide">
+                    Please wait. Connecting to your opponent...
+                    <img src="Image/connecting.gif" alt="loading">
+                </div>
+
+                <!-- game board to contain squares and overlay -->
+                <div id="game_board"></div>
+
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+            game_events();
+            two_player();
+        </script>
+        
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-52654807-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    </body>
+
+</html>

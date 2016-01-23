@@ -1,0 +1,26 @@
+{
+  "name": "roundcross",
+  "version": "0.0.1",
+  "description": "Online Tic-Tac-Toe",
+  "main": "app/server.js",
+  "dependencies": {
+    "socket.io": "^0.9.16"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Online",
+    "Tic-Tac-Toe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepakrai89/online-tic-tac-toe"
+  },
+  "author": "Deepak Rai",
+  "license": "ISC"
+}
