@@ -12,4 +12,8 @@ Would appreciate any sort of contribution.
 What i see is integrating it with PHP and then setting up score boards as well.
 We will be able to maintain score of the users.
 Major thing that I see is intergrating it with PHP.
+Currently I am working on following:
+asking user when a new game starts instead of directly starting.
+Handling timer properly
+Hangling game results properly.
 
