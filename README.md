@@ -7,7 +7,7 @@ and you will see a real time game in action.
 Will appreciate active participation in improving the game.
 Improving the multiple game timers handling.
 
-Feel free to fork .
+Feel free to fork  and contact me on LinkedIn at  https://goo.gl/EFQCp9
 Would appreciate any sort of contribution.
 What i see is integrating it with PHP and then setting up score boards as well.
 We will be able to maintain score of the users.
