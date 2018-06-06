@@ -15,5 +15,7 @@ Major thing that I see is intergrating it with PHP.
 Currently I am working on following:
 asking user when a new game starts instead of directly starting.
 Handling timer properly
-Hangling game results properly.
+Handling game results properly.
+
+contact me here: https://goo.gl/EFQCp9
 
