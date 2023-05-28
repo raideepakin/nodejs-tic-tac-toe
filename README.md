@@ -17,5 +17,5 @@ asking user when a new game starts instead of directly starting.
 Handling timer properly
 Handling game results properly.
 
-contact me here: https://www.linkedin.com/in/deepakr12/
+contact me here: [https://www.linkedin.com/in/deepakr12/](https://www.linkedin.com/in/raideepakin/)
 
